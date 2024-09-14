@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>document</title>
+  <style>
+    div {
+      font-size: 24px;
+      font-weight: bold;
+      color: blue;
+      margin-top: 20px;
+      align-items: center;
+    }
+  </style>
+</head>
+<body class="you">
+  <script>
+    const name = prompt("ism kiriting:");
+    const nameElement = document.createElement("div");
+    nameElement.textContent = name;
+    document.body.appendChild(nameElement);
+  </script>
+</body>
+</html>
